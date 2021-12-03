@@ -3,14 +3,28 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jrossett <jrossett@student.42.fr>          +#+  +:+       +#+        */
+/*   By: teambersaw <teambersaw@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/28 18:57:45 by teambersaw        #+#    #+#             */
-/*   Updated: 2021/12/03 11:43:21 by jrossett         ###   ########.fr       */
+/*   Updated: 2021/12/03 19:25:48 by teambersaw       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+static char	**ft_free(char **tab)
+{
+	unsigned int	i;
+
+	i = 0;
+	while (tab[i])
+	{
+		free(tab[i]);
+		i++;
+	}
+	free(tab);
+	return (NULL);
+}
 
 static int	ft_char(char s, char c)
 {
@@ -71,7 +85,7 @@ char	**ft_split(char const *s, char c)
 			i++;
 		tab[j] = malloc(sizeof(char) * (ft_len(s, c, i) + 1));
 		if (!tab)
-			return (NULL);
+			return (ft_free(tab));
 		while (s[i] != c && s[i])
 			tab[j][k++] = s[i++];
 		tab[j++][k] = '\0';
