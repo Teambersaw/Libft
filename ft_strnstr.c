@@ -6,7 +6,7 @@
 /*   By: jrossett <jrossett@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/27 19:14:03 by teambersaw        #+#    #+#             */
-/*   Updated: 2021/11/30 16:55:48 by jrossett         ###   ########.fr       */
+/*   Updated: 2021/12/03 11:44:10 by jrossett         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,13 +33,3 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 	}
 	return (NULL);
 }
-
-//#include <stdio.h>
-//
-//int main()
-//{
-//    char big[] = "lorem ipsum dolor sit amet";
-//    char little[] = "";
-//    printf("\n%s\n", ft_strnstr(big, "ipsum", 15));
-//    return (0);
-//}

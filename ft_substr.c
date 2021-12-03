@@ -6,7 +6,7 @@
 /*   By: jrossett <jrossett@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/27 19:13:57 by teambersaw        #+#    #+#             */
-/*   Updated: 2021/11/30 16:55:32 by jrossett         ###   ########.fr       */
+/*   Updated: 2021/12/03 11:44:24 by jrossett         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,11 +39,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	str[j] = 0;
 	return (str);
 }
-
-/*
-#include <stdio.h>
-int main()
-{
-    printf("\n%s\n", ft_substr("je suis un animal", 0, 100));
-    return (0);
-}*/

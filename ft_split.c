@@ -6,7 +6,7 @@
 /*   By: jrossett <jrossett@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/28 18:57:45 by teambersaw        #+#    #+#             */
-/*   Updated: 2021/11/30 16:56:39 by jrossett         ###   ########.fr       */
+/*   Updated: 2021/12/03 11:43:21 by jrossett         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -79,20 +79,3 @@ char	**ft_split(char const *s, char c)
 	tab[j] = NULL;
 	return (tab);
 }
-
-// int main()
-// {
-//   int i;
-//   char **tab;
-//   char *invalis;
-
-//   tab = ft_split("\0", 0);
-//   i = 0;
-//   free(tab);
-// //   while (tab[i])
-// //   {
-// //       printf("\n%s\n", tab[i]);
-// //       i++;
-// //   }
-//   return (0);
-// }

@@ -6,7 +6,7 @@
 /*   By: jrossett <jrossett@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/28 16:00:49 by teambersaw        #+#    #+#             */
-/*   Updated: 2021/11/30 16:56:06 by jrossett         ###   ########.fr       */
+/*   Updated: 2021/12/03 11:43:37 by jrossett         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,13 +31,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	tab[j] = 0;
 	return (tab);
 }
-
-/*
-#include <stdio.h>
-
-int main(int argc, char **argv)
-{
-    (void) argc;
-    printf("\n%s\n", ft_strjoin(argv[1], argv[2]));
-    return (0);
-}*/

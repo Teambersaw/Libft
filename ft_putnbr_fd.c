@@ -6,7 +6,7 @@
 /*   By: jrossett <jrossett@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/29 13:50:03 by jrossett          #+#    #+#             */
-/*   Updated: 2021/11/30 16:57:00 by jrossett         ###   ########.fr       */
+/*   Updated: 2021/12/03 11:43:07 by jrossett         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,12 +33,3 @@ void	ft_putnbr_fd(int n, int fd)
 		ft_putchar_fd(b + '0', fd);
 	}
 }
-
-// int	main(void)
-// {
-// 	int	n;
-
-// 	n = -165;
-// 	ft_putnbr_fd(n, 1);
-// 	return (0);
-// }

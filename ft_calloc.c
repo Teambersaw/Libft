@@ -6,7 +6,7 @@
 /*   By: jrossett <jrossett@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/25 13:45:18 by jrossett          #+#    #+#             */
-/*   Updated: 2021/12/02 11:15:14 by jrossett         ###   ########.fr       */
+/*   Updated: 2021/12/03 11:41:11 by jrossett         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,14 +27,3 @@ void	*ft_calloc(size_t nmemb, size_t size)
 	ft_bzero(array, nmemb * size);
 	return (array);
 }
-
-/*
-#include <stdio.h>
-int main()
-{
-	int	*str;
-	
-	str = ft_calloc(20, sizeof(*str));
-	printf("\n%d\n", *str);
-	return (0);
-}*/

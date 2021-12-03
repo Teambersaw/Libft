@@ -6,7 +6,7 @@
 /*   By: jrossett <jrossett@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/29 15:35:01 by jrossett          #+#    #+#             */
-/*   Updated: 2021/11/30 16:58:25 by jrossett         ###   ########.fr       */
+/*   Updated: 2021/12/03 11:41:49 by jrossett         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -72,14 +72,3 @@ char	*ft_itoa(int n)
 	ft_cpy(len, b, tab);
 	return (tab);
 }
-
-//#include <stdio.h>
-//
-//int    main(void)
-//{
-//    int    n;
-//
-//    n = 100000;
-//    printf("\n%s\n", ft_itoa(n));
-//    return (0);
-//}

@@ -6,7 +6,7 @@
 /*   By: jrossett <jrossett@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/25 15:33:25 by jrossett          #+#    #+#             */
-/*   Updated: 2021/11/25 16:22:42 by jrossett         ###   ########.fr       */
+/*   Updated: 2021/12/03 11:43:41 by jrossett         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,20 +31,3 @@ size_t	ft_strlcat(char *dst, char *src, size_t size)
 	dst[i + j] = '\0';
 	return (srclen + i);
 }
-
-/*
-#include <string.h>
-#include <stdio.h>
-#include <bsd/string.h>
-int main()
-{
-	char	dst2[50] = "ouioui";
-	char	*src = "nonononon";
-	char	dst[50] = "ouioui";
-	char	*src2 = "nonononon";
-	strlcat(dst, src, 50);
-	ft_strlcat(dst2, src2, 20);
-	printf("\n%s\n", dst);
-	printf("\n%s\n", dst2);
-	return (0);
-}*/

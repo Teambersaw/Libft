@@ -6,7 +6,7 @@
 /*   By: jrossett <jrossett@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/29 22:14:09 by teambersaw        #+#    #+#             */
-/*   Updated: 2021/11/30 16:55:56 by jrossett         ###   ########.fr       */
+/*   Updated: 2021/12/03 11:43:55 by jrossett         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,9 +31,3 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	tab[i] = '\0';
 	return (tab);
 }
-
-/*
-int main(void)
-{
-    return (0);
-}*/

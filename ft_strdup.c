@@ -6,7 +6,7 @@
 /*   By: jrossett <jrossett@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/25 13:28:06 by jrossett          #+#    #+#             */
-/*   Updated: 2021/11/30 16:56:15 by jrossett         ###   ########.fr       */
+/*   Updated: 2021/12/03 11:43:30 by jrossett         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,13 +29,3 @@ char	*ft_strdup(const char *s)
 	str[i] = '\0';
 	return (str);
 }
-
-/*
-#include <string.h>
-#include <stdio.h>
-int main()
-{
-	printf("\n%s\n", strdup("lalalal"));
-	printf("\n%s\n", ft_strdup("lalalal"));
-	return (0);
-}*/

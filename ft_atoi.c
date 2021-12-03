@@ -6,7 +6,7 @@
 /*   By: jrossett <jrossett@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/25 12:14:46 by jrossett          #+#    #+#             */
-/*   Updated: 2021/11/26 16:28:50 by jrossett         ###   ########.fr       */
+/*   Updated: 2021/12/03 11:40:33 by jrossett         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,13 +34,3 @@ int	ft_atoi(const char *nptr)
 	}
 	return (res * j);
 }
-
-/*
-#include <stdlib.h>
-#include <stdio.h>
-int main()
-{
-	printf("\n%d\n", atoi("		1245"));
-	printf("\n%d\n", ft_atoi("		1425"));
-	return (0);
-}*/

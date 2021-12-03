@@ -6,7 +6,7 @@
 /*   By: jrossett <jrossett@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/25 10:17:33 by jrossett          #+#    #+#             */
-/*   Updated: 2021/11/26 16:40:17 by jrossett         ###   ########.fr       */
+/*   Updated: 2021/12/03 11:42:35 by jrossett         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,17 +32,3 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
-
-/*
-#include <string.h>
-#include <stdio.h>
-
-int main()
-{
-	const char *s1 = "aaaaaaaaaa";
-	const char *s2 = "zaaaaaaaaa";
-
-	printf("%d\n", memcmp(s1, s2, 1));
-	printf("%d\n", ft_memcmp(s1, s2, 1));
-	return (0);
-}*/
